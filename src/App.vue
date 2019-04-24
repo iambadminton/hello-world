@@ -1,23 +1,18 @@
 <template>
     <div id="app">
         <div id="usertable">
-            <UserTable/>
+            <UserTableExtr/>
         </div>
-        <!--
-        <div id="user">
-            <User/>
-        </div>
-        -->
     </div>
 
 </template>
 
 <script>
-import UserTable from './components/UserTable.vue';
+import UserTableExtr from './components/UserTableExtr.vue';
 
 export default {
   components: {
-    UserTable
+    UserTableExtr
   },
   data: function() {
     return {
